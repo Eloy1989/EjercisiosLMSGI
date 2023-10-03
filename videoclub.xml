@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE generos SYSTEM "videoclub.DTD">
-<generos>
-    <peliculas>
+<!DOCTYPE videoclub SYSTEM "videoclub.DTD">
+<videoclub> generos= "variado">
+    <peliculas> codigo = "5675543" precio_compra ="23" precio_alquiler = "2"> 
+    mayores_de_18 = "18"
         <accion></accion>
         <suspense></suspense>
         <terror></terror>
         <romance></romance>
         <comedia></comedia>
-    </peliculas>
+    </peliculas> 
     <videojuegos>
-        </pc></pc>
-        </playstation></playstation>
-        </xbox></xbox>
+        </pc>44</pc>
+        </playstation>100</playstation>
+        </xbox>66</xbox>
     </videojuegos>
     <musica>
         </country></country>
         </pop></pop>
         </rock></rock>
+    </musica>
+    <musica>
+        </country></country>
     </musica>
 </generos>
