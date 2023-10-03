@@ -3,3 +3,8 @@
 <!ELEMENT videojuegos ( pc , playstation, xbox ) >
 <!ELEMENT musica (country, pop , rock)>
 <!ELEMENT accion EMPTY > 
+<!ELEMENT suspense EMPTY > 
+<!ELEMENT terror EMPTY > 
+<!ELEMENT romance EMPTY > 
+<!ELEMENT comedia EMPTY > 
+<!ELEMENT accion EMPTY > 
