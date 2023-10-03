@@ -1,0 +1,5 @@
+<!ELEMENT generos (peliculas, videojuegos, musica)>
+<!ELEMENT peliculas ( accion , suspense , terror , romance , comedia) >
+<!ELEMENT videojuegos ( pc , playstation, xbox ) >
+<!ELEMENT musica (country, pop , rock)>
+<!ELEMENT accion EMPTY > 

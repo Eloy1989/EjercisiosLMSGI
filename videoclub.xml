@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generos SYSTEM "videoclub.DTD">
+<generos>
+    <peliculas>
+        <accion></accion>
+        <suspense></suspense>
+        <terror></terror>
+        <suspense></suspense>
+        <romance></romance>
+    </peliculas>
+    <videojuegos>
+        </pc></pc>
+        </playstation></playstation>
+        </xbox></xbox>
+    </videojuegos>
+    <musica>
+        </country></country>
+        </pop></pop>
+        </rock></rock>
+    </musica>
+</generos>
