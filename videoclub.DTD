@@ -1,4 +1,4 @@
-<!ELEMENT generos (peliculas, videojuegos, musica)>
+<!ELEMENT videoclub (peliculas, videojuegos, musica)>
 <!ELEMENT peliculas ( accion , suspense , terror , romance , comedia) >
 <!ELEMENT videojuegos ( pc , playstation, xbox ) >
 <!ELEMENT musica (country, pop , rock)>
@@ -8,3 +8,14 @@
 <!ELEMENT romance EMPTY > 
 <!ELEMENT comedia EMPTY > 
 <!ELEMENT accion EMPTY > 
+<!ATTLIST videoclub generos  CDATA #REQUIRED>                 
+<!ATTLIST peliculas codigo ID #REQUIRED
+                    precio_compra CDATA #FIXED
+                    precio_alquiler CDATA #FiXED>
+                    mayores_de_18 IDREF #REQUIRED
+<!ATTLIST musica oferta CDATA #IMPLIED   
+
+
+
+                    
+                    
