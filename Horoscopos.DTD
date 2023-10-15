@@ -1,0 +1,24 @@
+<!ELEMENT Horoscopos  (#PCDATA? , IDMadera ( tipos_horoscopo | Elementos))*>
+<!ELEMENT tipos_horoscopos (#PCDATA)>
+<!ELEMENT Elementos (Fuego , Aire , Tierra , Agua , Madera)>
+<!ELEMENT Fuego (#PCDATA)>
+<!ELEMENT Aire (#PCDATA)>
+<!ELEMENT Tierra (#PCDATA)>
+<!ELEMENT Agua (#PCDATA)>
+<!ELEMENT Madera #EMPTY>
+<!ELEMENT IDMadera (#PCDATA)>
+<!ATTLIST Horoscopos Año ID #REQUIRED
+                     Fecha #PCDATA #FIXED
+                     color (amarillo | verde | rojo | negro) "amarillo">
+<!ATTLIST tipos_horoscopos codigo ID #REQUIRED> 
+                           Representa #PCDATA #IMPLIED 
+<!ATTLIST fuego numero IDREF #IMPLIED>
+<!ATTLIST Aire numero IDREF #IMPLIED>                      
+<!ATTLIST Tierra numero IDREF #IMPLIED> 
+<!ATTLIST Agua numero IDREF #IMPLIED>
+<!ATTLIST Elementos nombre #PCDATA  #IMPLIED 
+                    Tipo #PCDATA  #IMPLIED
+                    Orden #PCDATA  #IMPLIED>
+<!ATTLIST IDMadera Clave IDREFS #IMPLIED>   
+<!ENTITY Reseña "Soy fan de los signos del zodiaco">
+
