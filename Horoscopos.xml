@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Horoscopos SYSTEM "01-xml-dtd-01.dtd">
+<Horoscopos Año="2023" Fecha="jueves"&Reseña;>
+       <tipos_horoscopos Representa="leon" Codigo="L">leo</tipos_horoscopos>
+       <tipos_horoscopos Representa="toro" Codigo="T">tauro</tipos_horoscopos>
+       <tipos_horoscopos Representa="gemelos" Codigo="G">geminis</tipos_horoscopos>
+       <tipos_horoscopos Representa="virgen" Codigo="V">virgo</tipos_horoscopos>
+       <tipos_horoscopos Representa="arquero" Codigo="S">sagitario</tipos_horoscopos>
+       <tipos_horoscopo Representa="pez" Codigo="P">piscis</tipos_horoscopos>
+   <Elementos Nombre="Naturaleza"  Tipo="A" Orden="A-D">
+       <Fuego numero="L">leo</Fuego>
+       <Aire numero="G">geminis</Aire>
+       <Tierra numero="T">tauro</Tierra>
+       <Agua numero="P">piscis</Agua>
+       <Madera/>
+  </Elementos>
+  </IDMadera Clave= "V S P">
+</Horoscopos>   
