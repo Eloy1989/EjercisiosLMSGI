@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Horoscopos SYSTEM "01-xml-dtd-01.dtd">
-<Horoscopos Año="2023" Fecha="jueves"&Reseña;>
+<Horoscopos Año="2023" Fecha="jueves" color="amarillo"&Reseña;>
        <tipos_horoscopos Representa="leon" Codigo="L">leo</tipos_horoscopos>
        <tipos_horoscopos Representa="toro" Codigo="T">tauro</tipos_horoscopos>
        <tipos_horoscopos Representa="gemelos" Codigo="G">geminis</tipos_horoscopos>
@@ -12,7 +12,7 @@
        <Aire numero="G">geminis</Aire>
        <Tierra numero="T">tauro</Tierra>
        <Agua numero="P">piscis</Agua>
-       <Madera/>
+       <Madera/> 
   </Elementos>
-  </IDMadera Clave= "V S P">
+  </IDMadera Clave= "V S P" tambien es importante para mi>
 </Horoscopos>   
